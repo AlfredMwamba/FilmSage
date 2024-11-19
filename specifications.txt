@@ -1,0 +1,54 @@
+Project Title: FilmSage - Movie Recommendation Application with Integrated AI Chatbot
+
+Objective:
+Develop a comprehensive movie recommendation application that leverages an AI-powered chatbot (Sage) to help users get personalized movie suggestions, provide summaries and detailed descriptions, track viewing history, and suggest movies based on user preferences. The application should include key features inspired by Netflix, such as personalized recommendation algorithms, user profiles, and advanced search/filtering options. Additionally, the app will guide users to available streaming platforms, like Netflix, Amazon Prime Video, Disney+, HULU, YouTube TV, and others, where they can watch the recommended movies. The application will also include an admin role for managing user profiles, overseeing app-related information, and maintaining data integrity.
+
+Main Features:
+	1.	User Authentication and Profiles:
+	•	Users can create accounts and personal profiles.
+	•	Each profile tracks individual viewing history and preferences.
+	•	Multiple profiles for family or friends with personalized movie recommendations.
+	2.	AI-Powered Chatbot:
+	•	The chatbot helps users discover movies by providing personalized recommendations based on viewing history, genres, and user data.
+	•	It offers detailed movie summaries, descriptions, reviews, and trailers.
+	•	Tracks user interactions to improve future recommendations.
+	3.	Movie Recommendation System:
+	•	AI recommendation engine (using collaborative filtering or content-based filtering) suggests movies based on user preferences and historical data.
+	•	Dynamic recommendations based on user viewing habits, rating history, and search behavior.
+	•	Trending movies, genre-specific suggestions, and “watch again” features inspired by Netflix.
+	4.	Streaming Platform Integration:
+	•	For each recommended movie, the app displays links to sites where users can watch or rent the film, including popular platforms like Netflix, Amazon Prime Video, Disney+, HULU, YouTube TV, and Peacock.
+	•	The app checks availability across different platforms and tells the user where to watch, rent, or buy the recommended movie.
+	•	Price comparison for movie rental or purchase across different platforms.
+	5.	User Interaction and Social Features:
+	•	Users can rate movies and leave comments.
+	•	Incorporates a “watchlist” for users to save movies to watch later.
+	•	Option to share recommendations or lists with friends or on social media.
+	6.	Search and Filtering:
+	•	Advanced search functionality allowing users to filter movies by genre, release year, rating, language, etc.
+	•	Ability to search for specific actors, directors, or keywords.
+	7.	Recommendation History Tracking:
+	•	The app tracks movies a user has watched, recommended, or added to their watchlist to refine future suggestions.
+	•	Users can revisit their history to check previously watched or recommended movies.
+	8.	In-App Notifications:
+	•	Notifications for new movie releases, trailers, or upcoming films matching the user’s interests.
+	•	Alerts for movies expiring on the user’s watchlist.
+	9.	Modern UI/UX Design:
+	•	Intuitive and modern interface with smooth navigation, similar to popular platforms like Netflix.
+	•	Includes a dark mode option for better viewing experience.
+	10.	Admin Panel (Admin Role):
+
+	•	User Management: Admins can view, edit, or delete user accounts and profiles. They can reset passwords, resolve user-reported issues, and manage inactive or problematic accounts.
+	•	Content Moderation: Admins have access to user-generated content, such as movie ratings, reviews, and comments. They can moderate, delete inappropriate content, or handle flagged content to maintain a safe and engaging environment.
+	•	Movie Database Management: Admins can add, update, or remove movies from the app’s database, ensuring that the movie catalog is up-to-date with the latest releases and accurate details.
+	•	Analytics and Insights: Admins can access data on user activity, popular movies, and app engagement. This information can be used to refine recommendations, plan content updates, and optimize the user experience.
+	•	Data Integrity and Backup: Admins ensure data consistency and perform backups to prevent data loss and manage the integrity of user information, preferences, and history.
+	•	Platform Availability Monitoring: Admins can monitor streaming platform availability and make updates if links or services change, ensuring users are accurately directed to platforms for movie viewing.
+
+Technical Considerations:
+	•	Backend: Implement a robust database with PostgreSQL to manage user profiles, movie data, history, and admin functions.
+	•	Machine Learning: Use recommendation algorithms (e.g., collaborative filtering, content-based filtering, or deep learning models) to provide personalized movie suggestions.
+	•	Frontend: Use HTML, CSS, JavaScript, and Bootstrap for a responsive and user-friendly interface.
+	•	API Integration: Use external movie databases like IMDb or The Movie Database (TMDb) for movie information, summaries, and ratings.
+	•	Streaming API: Integrate APIs to check movie availability on platforms such as Netflix, Amazon Prime Video, Disney+, HULU, YouTube TV, etc.
+
